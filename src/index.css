@@ -172,7 +172,7 @@ footer button:hover {
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .sidebar {
     position: relative;
     inset: unset;
@@ -190,5 +190,11 @@ footer button:hover {
     right: 0;
     left: unset;
     width: 100vw;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .sidebarContents button {
+    padding-bottom: 20px;
   }
 }
